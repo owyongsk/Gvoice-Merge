@@ -1,0 +1,10 @@
+This is my way of sending mass customized SMS messages. With Google Voice, you can pretty much send greetings like people thought you mean it. Now you can automate even more with personalized ones.
+
+This runs on Ruby and is distributed under the BEER-WARE License.
+
+**THE BEER-WARE LICENSE**
+
+SoonKhen OwYong wrote this file. As long as you retain this notice youcan do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return.
+
+License originally authored by Poul-Henning Kamp (phk).
+
