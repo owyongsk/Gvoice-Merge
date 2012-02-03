@@ -5,7 +5,7 @@ require 'csv'
 @user = 'your@gmail.com'
 @pass = 'yourgmailpassword'
 @salutation = 'Hey'
-@message = 'Merry Christmas'
+@message = "are you coming to AIESEC's info session tonight?"
 
 # A simple hack for SSL issues in Windows
 OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
@@ -20,7 +20,7 @@ headers = csv_data.shift.map {|i| i.to_s }
 string_data = csv_data.map {|row| row.map {|cell| cell.to_s } }
 names = string_data.map {|row| Hash[*headers.zip(row).flatten] }
 
-#Basically loops the array of hashes and sends out the message
+# Basically loops the array of hashes and sends out the message
 names.each do |n|
   number = n["Mobile Phone"]
   name = n["First Name"]
